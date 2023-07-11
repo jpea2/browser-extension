@@ -1,0 +1,85 @@
+:root {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    min-width: 400px;
+}
+
+#delete-btn {
+    color: lightseagreen;
+    background-color: white;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.flexxy {
+    display: flex;    
+    gap: 0.25rem;   
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    /* color: #5f9341; */
+    color: lightseagreen;
+}
+
+a:visited {
+    color: black;
+}
+
+#blah {
+    padding-top: 90px;
+}
+
+#ul-el {
+    width: 100px;
+}
+
+#box {
+    color: white;
+    margin: auto;
+    margin-top: 10rem;
+    width: 200px;
+    height: 200px;
+    background: lightseagreen;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: large;
+    border: 2px solid lightseagreen;
+}
+
+#input-area {
+    display: flex;
+    margin: auto;
+}
+
+#clear-input-btn {
+    margin-top: 0;
+    font-size: large;
+}
+
+button {
+    padding: 10px 20px; 
+    /* 10 for bottom and top and 20 for left and right*/
+    color: white;
+    background-color: lightseagreen;
+    border: 0;
+    font-size: small;
+    margin-top: 2px;
+    display: flex;
+    border: 2px solid lightseagreen;
+}
